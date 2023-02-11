@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-sans;
+}
+
+.bg-gradient {
+  background: linear-gradient(135deg, #b84ed9, #e461b9 80%) !important;
+}
+
+.bg-gradient:hover {
+  background: linear-gradient(135deg, #9940b4, #bc5098 80%) !important;
+}
