@@ -9,7 +9,9 @@
         <div
           class="hidden md:inline bg-[#4ed9b8] hover:bg-[#40b297] py-3 px-5 cursor-pointer"
         >
-          <span class="text-white font-semibold">(+62) 851-6290-0414</span>
+          <span class="text-white font-semibold"
+            ><a href="tel:+6285162900414">Phone: (+62) 851-6290-0414</a></span
+          >
         </div>
       </div>
     </div>
@@ -83,6 +85,54 @@
     </div>
   </header>
   <slot />
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <path
+      fill="#6f279c"
+      fill-opacity="1"
+      d="M0,128L40,144C80,160,160,192,240,202.7C320,213,400,203,480,192C560,181,640,171,720,176C800,181,880,203,960,213.3C1040,224,1120,224,1200,208C1280,192,1360,160,1400,144L1440,128L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
+    ></path>
+  </svg>
+  <footer class="bg-secondary text-sm">
+    <div
+      class="container flex flex-col md:flex-row gap-10 mx-3 md:mx-auto text-white pb-20 border-b border-white/20"
+    >
+      <div class="flex-auto max-w-3xl">
+        <h3 class="text-lg font-bold mb-3">TENTANG KAMI</h3>
+        <p>
+          Hestara merupakan platform pembuatan aplikasi tanpa kode pemrograman
+          yang membantu pelaku bisnis pemula (startup), individu (peneliti) dan
+          organisasi dalam mengembangkan aplikasi secara cepat dan dinamis.
+        </p>
+      </div>
+      <div class="flex-auto">
+        <h3 class="text-lg font-bold mb-3">LINK PENTING</h3>
+        <ul class="flex flex-col gap-1">
+          <li class="hover:underline underline-offset-2">
+            <NuxtLink to="/creator-web">Hestara Creator Web</NuxtLink>
+          </li>
+          <li class="hover:underline underline-offset-2">
+            <NuxtLink to="/creator-system">Hestara Creator System</NuxtLink>
+          </li>
+          <li class="hover:underline underline-offset-2">
+            <NuxtLink to="/pricing">Pricing Plan</NuxtLink>
+          </li>
+        </ul>
+      </div>
+      <div class="flex-auto">
+        <h3 class="text-lg font-bold mb-3">CONTACT US</h3>
+        <ul class="flex flex-col gap-1">
+          <li>Jalan Bali Cliff No. 33A, Ungasan, Kuta Selatan</li>
+          <li><a href="tel:+6285162900414">Phone: (+62) 851-6290-0414</a></li>
+          <li><a href="mailto:info@hestara.app">Email: info@hestara.app</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container mx-auto flex justify-center items-center py-5">
+      <span class="text-white/50 text-sm"
+        >Hestara © Copyright 2023. All Rights Reserved.</span
+      >
+    </div>
+  </footer>
 </template>
 
 <script lang="ts">
