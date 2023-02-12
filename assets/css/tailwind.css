@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   @apply font-sans;
 }
@@ -12,4 +16,8 @@ body {
 
 .bg-gradient:hover {
   background: linear-gradient(135deg, #9940b4, #bc5098 80%) !important;
+}
+
+.card {
+  @apply bg-white shadow-md rounded-lg border p-10;
 }

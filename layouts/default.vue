@@ -1,7 +1,9 @@
 <template>
   <header class="bg-primarybg">
     <div id="top_header" class="border-b-2 md:border">
-      <div class="container flex justify-between items-center mx-auto">
+      <div
+        class="container flex justify-between items-center mx-auto md:px-8 lg:px-0"
+      >
         <div class="flex gap-5 text-sm text-primarytxt">
           <span class="m-4 md:m-0">info@hestara.app</span>
           <span class="hidden md:inline">Mon - Fri 9:00am - 5:00pm</span>
@@ -10,38 +12,38 @@
           class="hidden md:inline bg-[#4ed9b8] hover:bg-[#40b297] py-3 px-5 cursor-pointer"
         >
           <span class="text-white font-semibold"
-            ><a href="tel:+6285162900414">Phone: (+62) 851-6290-0414</a></span
+            ><a href="tel:+6285162900414">(+62) 851-6290-0414</a></span
           >
         </div>
       </div>
     </div>
-    <div id="main_header" class="border-b-2 md:border">
+    <div id="main_header" class="border-b-2 md:border md:px-8 lg:px-0">
       <div
         class="relative container mx-auto flex justify-between items-center py-7"
       >
         <div class="mx-3 md:mx-0">
           <img src="img/logo.svg" alt="Hestara" width="150" />
         </div>
-        <nav class="mx-3 md:mx-0">
+        <nav class="px-3 md:px-0 z-50">
           <button
             @click="isShowMenu = !isShowMenu"
-            class="bg-primary rounded py-1 px-2 md:hidden"
+            class="bg-primary rounded py-1 px-2 lg:hidden"
           >
             <span class="material-symbols-outlined text-white"> menu </span>
           </button>
           <ul
-            class="md:flex px-3 md:px-0 justify-center items-center gap-5 text-primarytxt"
+            class="lg:flex px-3 md:px-0 justify-center items-center gap-5 text-primarytxt"
             :class="
               isShowMenu
                 ? 'absolute flex-col top-[105px] right-0 left-0 w-full bg-primarybg py-5'
                 : 'hidden'
             "
           >
-            <li class="text-primary font-semibold my-5 md:my-0">
+            <li class="text-primary font-semibold my-5 lg:my-0">
               <NuxtLink to="/">Home</NuxtLink>
             </li>
             <li
-              class="relative my-5 md:my-0"
+              class="relative my-5 lg:my-0"
               @click="isShowProducts = !isShowProducts"
             >
               <span class="cursor-pointer hover:text-primary"
@@ -62,13 +64,13 @@
                 </li>
               </ul>
             </li>
-            <li class="hover:text-primary my-5 md:my-0">
+            <li class="hover:text-primary my-5 lg:my-0">
               <NuxtLink to="/pricing">Pricing Plan</NuxtLink>
             </li>
-            <li class="hover:text-primary my-5 md:my-0">
+            <li class="hover:text-primary my-5 lg:my-0">
               <NuxtLink to="/case-studies">Case Studies</NuxtLink>
             </li>
-            <li class="hover:text-primary my-5 md:my-0">
+            <li class="hover:text-primary my-5 lg:my-0">
               <NuxtLink to="/careers">Careers</NuxtLink>
             </li>
             <li class="my-5 md:my-0">
@@ -84,7 +86,9 @@
       </div>
     </div>
   </header>
+
   <slot />
+
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
     <path
       fill="#6f279c"
