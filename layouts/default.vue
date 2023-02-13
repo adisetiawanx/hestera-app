@@ -26,7 +26,7 @@
         class="relative container mx-auto flex justify-between items-center py-7"
       >
         <div class="mx-3 md:mx-0">
-          <img src="img/logo.svg" alt="Hestara" width="150" />
+          <img src="/img/logo.svg" alt="Hestara" width="150" />
         </div>
         <nav class="px-3 md:px-0 z-50">
           <button
