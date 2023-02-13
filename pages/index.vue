@@ -6,4 +6,5 @@
   <HomeHeroSection />
   <HomeFeaturesSection />
   <HomeServicesSection />
+  <HomeInformationSection />
 </template>
