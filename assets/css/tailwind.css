@@ -21,3 +21,7 @@ body {
 .card {
   @apply bg-white shadow-md rounded-lg border p-10;
 }
+
+.circle {
+  @apply hidden md:block absolute rounded-full  -z-10;
+}

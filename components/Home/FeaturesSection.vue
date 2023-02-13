@@ -49,7 +49,7 @@
                 berdasarkan visualisasi yang sudah kamu buat.
               </p>
               <div
-                class="absolute -right-20 bottom-10 h-[25px] w-[25px] bg-[#e260b8] rounded-full"
+                class="circle -right-20 bottom-10 h-[25px] w-[25px] bg-[#e260b8]"
               ></div>
             </div>
           </div>
