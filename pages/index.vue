@@ -1,3 +1,5 @@
+import PaketSection from '~~/components/Home/PaketSection.vue';
+
 <template>
   <Head>
     <Title>Hestara - Buat Aplikasi Tanpa Kode Program</Title>
@@ -7,4 +9,5 @@
   <HomeFeaturesSection />
   <HomeServicesSection />
   <HomeInformationSection />
+  <HomePricingSection />
 </template>

@@ -5,7 +5,11 @@
         class="container flex justify-between items-center mx-auto md:px-8 lg:px-0"
       >
         <div class="flex gap-5 text-sm text-primarytxt">
-          <span class="m-4 md:m-0">info@hestara.app</span>
+          <a
+            class="m-4 md:m-0 hover:underline hover:text-primary"
+            href="mailto:hestara.app@gmail.com"
+            >info@hestara.app</a
+          >
           <span class="hidden md:inline">Mon - Fri 9:00am - 5:00pm</span>
         </div>
         <div
@@ -89,7 +93,11 @@
 
   <slot />
 
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 1440 320"
+    class="lg:-mt-12"
+  >
     <path
       fill="#6f279c"
       fill-opacity="1"
@@ -98,9 +106,9 @@
   </svg>
   <footer class="bg-secondary text-sm">
     <div
-      class="container flex flex-col md:flex-row gap-10 mx-3 md:mx-auto text-white pb-20 border-b border-white/20"
+      class="container lg:max-w-[70%] flex flex-col md:flex-row gap-10 mx-3 md:mx-auto text-white px-5 md:px-0 pb-20 border-b border-white/20"
     >
-      <div class="flex-auto max-w-3xl">
+      <div class="max-w-[50%]">
         <h3 class="text-lg font-bold mb-3">TENTANG KAMI</h3>
         <p>
           Hestara merupakan platform pembuatan aplikasi tanpa kode pemrograman
