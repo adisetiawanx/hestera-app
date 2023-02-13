@@ -111,7 +111,7 @@
       <div
         class="bg-white flex flex-col xl:flex-row gap-8 justify-center items-center rounded-md border-t-4 border-primary shadow py-12"
       >
-        <p class="text-center text-lg text-primarytxt">
+        <p class="px-3 text-center text-lg text-primarytxt">
           Belum menemukan pilihan layanan yang sesuai? Lihat lebih lengkap di
           halaman <strong>Pricing</strong> kami!
         </p>

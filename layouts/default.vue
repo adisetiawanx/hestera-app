@@ -108,7 +108,7 @@
     <div
       class="container lg:max-w-[70%] flex flex-col md:flex-row gap-10 mx-3 md:mx-auto text-white px-5 md:px-0 pb-20 border-b border-white/20"
     >
-      <div class="max-w-[50%]">
+      <div class="lg:max-w-[50%]">
         <h3 class="text-lg font-bold mb-3">TENTANG KAMI</h3>
         <p>
           Hestara merupakan platform pembuatan aplikasi tanpa kode pemrograman
