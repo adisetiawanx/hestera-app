@@ -1,5 +1,5 @@
 <template>
-  <section id="hero" class="bg-primarybg">
+  <section id="hero" class="relative bg-primarybg">
     <div
       class="container flex flex-col md:flex-row px-3 md:px-8 lg:px-0 mx-auto justify-center pt-32"
     >
@@ -27,11 +27,16 @@
         <img src="/img/webp/Tablet_Pro_Mockup_10_.webp" />
       </div>
     </div>
+    <div class="circle bg-[#4ed9b8] h-12 w-12 bottom-24 right-48">
+      <div class="circle bg-[#b9b9b9] h-6 w-6 -top-8 -right-3"></div>
+      <div class="circle bg-[#e4e4e4] h-4 w-4 top-0 -right-7"></div>
+      <div class="circle bg-[#e4e4e4] h-3 w-3 -top-7 -right-9"></div>
+    </div>
     <svg
       width="100%"
       height="600px"
       xmlns="http://www.w3.org/2000/svg"
-      class="custom-section-curved-top-1 -mt-80 -z-10"
+      class="custom-section-curved-top-1 -mt-80 -z-40"
     >
       <path
         id="svg_1"

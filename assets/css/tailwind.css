@@ -23,5 +23,5 @@ body {
 }
 
 .circle {
-  @apply hidden md:block absolute rounded-full  -z-10;
+  @apply hidden md:block absolute rounded-full  z-10;
 }

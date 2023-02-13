@@ -36,10 +36,10 @@
             <span class="material-symbols-outlined text-white"> menu </span>
           </button>
           <ul
-            class="lg:flex px-3 md:px-0 justify-center items-center gap-5 text-primarytxt"
+            class="lg:static lg:flex flex-col lg:flex-row px-3 md:px-0 justify-center items-center gap-5 text-primarytxt"
             :class="
               isShowMenu
-                ? 'absolute flex-col top-[105px] right-0 left-0 w-full bg-primarybg py-5'
+                ? 'absolute  top-[105px] right-0 left-0 bg-primarybg py-5'
                 : 'hidden'
             "
           >
@@ -55,7 +55,7 @@
               </span>
 
               <ul
-                class="md:absolute flex-col gap-2 bg-white rounded-md border border-[#c5c6c8]"
+                class="md:absolute flex-col gap-2 bg-white rounded-md border border-[#c5c6c8] w-52"
                 :class="isShowProducts ? 'block' : 'hidden'"
               >
                 <li class="hover:bg-primarybg hover:text-primary p-3">
