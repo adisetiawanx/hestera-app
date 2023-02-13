@@ -12,4 +12,4 @@
 
 ## Live
 
-- Link : (waiting to deploy first)
+- Link : https://hestera-app.vercel.app
